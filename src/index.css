@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900.roatefamily=Montserrat:wght@300;400;500;600;700;800;900.roatedisplay=swap");
+
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+
+.ff_montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  /* font-size */
+  --fs-xsm: 15px;
+  --fs-sm: 14px;
+  --fs-md: 18px;
+  --fs-xl: 14px;
+  --fs-2x5l: 16px;
+  --fs-3xl: 20px;
+  --fs-3x5l: 25px;
+  --fs-4xl: 22px;
+  --fs-5xl: 28px;
+  --fs-5x5l: 21px;
+  --fs-6x5l: 25px;
+  --fs-7xl: 26px;
+  --fs-7x5l: 45px;
+  --fs-8x5l: 26px;
+  --fs-15x0l: 28px;
+  --fs-20x0l: 42px;
+  --fs-45x0l: 450px;
+  /* text-color */
+
+  --clr-white: #ffffff;
+  --clr-red: #bf0404;
+  --clr-darkBlack: #161515;
+  --clr-gray: #58585b;
+  --clr-primary: #212024;
+  --clr-lightWhite: #e2e2e2;
+  --clr-secondary: #6d6d6d;
+  --clr-darkWhite: #efefef;
+  /* bg-color */
+  --bg-primary: #212024;
+  --bg-secondary: #bf0404;
+  /* line-height */
+  --lh-28: 28px;
+  --lh-70: 30px;
+  --lh-120: 50px;
+}
+.lh_28 {
+  line-height: var(--lh-28);
+}
+.lh_120 {
+  line-height: var(--lh-120);
+}
+.lh_70 {
+  line-height: var(--lh-70);
+}
+/* font-size */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2x5l {
+  font-size: var(--fs-2x5l);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_3x5l {
+  font-size: var(--fs-3x5l);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+.fs_5x5l {
+  font-size: var(--fs-5x5l);
+}
+.fs_6x5l {
+  font-size: var(--fs-6x5l);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+.fs_7x5l {
+  font-size: var(--fs-7x5l);
+}
+.fs_8x5l {
+  font-size: var(--fs-8x5l);
+}
+.fs_15x0l {
+  font-size: var(--fs-15x0l);
+}
+.fs_20x0l {
+  font-size: var(--fs-20x0l);
+}
+.fs_45x0l {
+  font-size: var(--fs-45x0l);
+}
+/* text-color */
+.text_white {
+  color: var(--clr-white);
+}
+.text_red {
+  color: var(--clr-red);
+}
+.text_darkBlack {
+  color: var(--clr-darkBlack);
+}
+.text_gray {
+  color: var(--clr-gray);
+}
+.text_primary {
+  color: var(--clr-primary);
+}
+.text_lightWhite {
+  color: var(--clr-lightWhite);
+}
+.text_secondary {
+  color: var(--clr-secondary);
+}
+.text_darkWhite {
+  color: var(--clr-darkWhite);
+}
+/* bg-color */
+.bg_primary {
+  background-color: var(--bg-primary);
+}
+.bg_secondary {
+  background-color: var(--bg-secondary);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* z_index */
+.z_index-1 {
+  z-index: -1 !important;
+}
+.z_index1 {
+  z-index: 1;
+}
+.z_index2 {
+  z-index: 2;
+}
+.z_index3 {
+  z-index: 3;
+}
+.z_index4 {
+  z-index: 4;
+}
+.z_index5 {
+  z-index: 5;
+}
+@media (min-width: 575.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-xl: 14px;
+    --fs-2x5l: 20px;
+    --fs-3xl: 30px;
+    --fs-3x5l: 35px;
+    --fs-4xl: 40px;
+    --fs-5xl: 32px;
+    --fs-5x5l: 26px;
+    --fs-6x5l: 42px;
+    --fs-7xl: 32px;
+    --fs-7x5l: 75px;
+    --fs-8x5l: 37px;
+    --fs-15x0l: 48px;
+    --fs-20x0l: 52px;
+    --fs-45x0l: 450px;
+    --lh-28: 28px;
+    --lh-70: 40px;
+    --lh-120: 65px;
+  }
+}
+@media (min-width: 767.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-xl: 14px;
+    --fs-2x5l: 21px;
+    --fs-3xl: 22px;
+    --fs-3x5l: 17px;
+    --fs-4xl: 20px;
+    --fs-5xl: 50px;
+    --fs-5x5l: 28px;
+    --fs-6x5l: 55px;
+    --fs-7xl: 40px;
+    --fs-7x5l: 55px;
+    --fs-8x5l: 45px;
+    --fs-15x0l: 65px;
+    --fs-20x0l: 85px;
+    --fs-45x0l: 450px;
+    --lh-70: 40px;
+    --lh-28: 28px;
+    --lh-120: 80px;
+  }
+}
+@media (min-width: 991.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 18px;
+    --fs-2x5l: 22px;
+    --fs-3xl: 25px;
+    --fs-3x5l: 23px;
+    --fs-4xl: 32px;
+    --fs-5xl: 38px;
+    --fs-5x5l: 30px;
+    --fs-6x5l: 65px;
+    --fs-7xl: 38px;
+    --fs-7x5l: 40px;
+    --fs-8x5l: 58px;
+    --fs-15x0l: 90px;
+    --fs-20x0l: 110px;
+    --fs-45x0l: 450px;
+    --lh-28: 28px;
+    --lh-70: 45px;
+
+    --lh-120: 80px;
+  }
+  .w_lg_100 {
+    width: 100% !important;
+  }
+  .translate_y {
+    transform: translateY(20%);
+  }
+}
+@media (min-width: 1199.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x5l: 25px;
+    --fs-3xl: 30px;
+    --fs-3x5l: 28px;
+    --fs-4xl: 35px;
+    --fs-5xl: 45px;
+    --fs-5x5l: 36px;
+    --fs-6x5l: 65px;
+    --fs-7xl: 48px;
+    --fs-7x5l: 75px;
+    --fs-8x5l: 60px;
+    --fs-15x0l: 115px;
+    --fs-20x0l: 165px;
+    --fs-45x0l: 450px;
+    --lh-28: 28px;
+    --lh-70: 55px;
+    --lh-120: 100px;
+  }
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 1400.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x5l: 25px;
+    --fs-3xl: 30px;
+    --fs-3x5l: 35px;
+    --fs-4xl: 40px;
+    --fs-5xl: 50px;
+    --fs-5x5l: 46px;
+    --fs-6x5l: 55px;
+    --fs-7xl: 58px;
+    --fs-7x5l: 75px;
+    --fs-8x5l: 85px;
+    --fs-15x0l: 120px;
+    --fs-20x0l: 175px;
+    --fs-45x0l: 450px;
+    --lh-28: 28px;
+    --lh-120: 100px;
+  }
+  .container {
+    max-width: 1540px !important;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 1599.99px) {
+  :root {
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 20px;
+    --fs-2x5l: 25px;
+    --fs-3xl: 30px;
+    --fs-3x5l: 35px;
+    --fs-4xl: 40px;
+    --fs-5xl: 50px;
+    --fs-5x5l: 55px;
+    --fs-6x5l: 65px;
+    --fs-7xl: 68px;
+    --fs-7x5l: 75px;
+    --fs-8x5l: 85px;
+    --fs-15x0l: 150px;
+    --fs-20x0l: 200px;
+    --fs-45x0l: 450px;
+    --lh-28: 28px;
+    --lh-70: 70px;
+    --lh-120: 120px;
+  }
+}
+
+.main_btn {
+  background: #bf0404;
+  border-radius: 100px;
+  padding: 16px 31px 16px 34px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: var(--fs-md);
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: all 300ms linear;
+}
+.main_btn:hover {
+  background: transparent;
+  color: #bf0404;
+  border: 1px solid #bf0404;
+  transition: all 300ms linear;
+}
